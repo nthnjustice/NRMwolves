@@ -1,0 +1,132 @@
+body {
+  background: #eceff1;
+}
+
+.line-nu {
+  fill: none;
+  stroke: #f44336;
+  stroke-width: 3;
+}
+
+.line-MT {
+  fill: none;
+  stroke: #9c27b0;
+  stroke-width: 3;
+}
+
+.line-WY {
+  fill: none;
+  stroke: #2196f3;
+  stroke-width: 3;
+}
+
+.line-ID {
+  fill: none;
+  stroke: #4caf50;
+  stroke-width: 3;
+}
+
+.line-OR {
+  fill: none;
+  stroke: #ffeb3b;
+  stroke-width: 3;
+}
+
+.line-WA {
+  fill: none;
+  stroke: #795548;
+  stroke-width: 3;
+}
+
+.point-nu {
+  fill: #f44336;
+}
+
+.point-MT {
+  fill: #9c27b0;
+}
+
+.point-WY {
+  fill: #2196f3;
+}
+
+.point-ID {
+  fill: #4caf50;
+}
+
+.point-OR {
+  fill: #ffeb3b;
+}
+
+.point-WA {
+  fill: #795548;
+}
+
+.xAxis {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+
+.source-xAxis {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.yAxis {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+
+.legend {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.focus {
+  fill: #607d8b;
+  stroke: #ffffff;
+  stroke-width: 1px;
+}
+
+.xAxis .tick {
+  cursor: pointer;
+}
+
+.year-active {
+  color: #009688;
+  font-size: 14px;
+}
+
+.overtime-title {
+  margin: 0px;
+}
+
+.inyear-title {
+  margin: 0px;
+}
+
+.source-wrapper {
+  margin: 0px;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0px !important;
+}
+
+.no-top-margin {
+  margin-top: 0px !important;
+}

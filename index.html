@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>NRM Wolves</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper teal">
+      <a href="#" class="brand-logo center">Wolves in the Northern Rocky Mountains</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="no-bottom-margin row">
+      <div class="col l12 m12 s12">
+        <div class="card-panel">
+            <p>The Endangered Species Act of 1973 (ESA) is arguably the most important conservation law in the history of the United States. Since it’s passage, the law has helped protect hundreds of species from inevitable extinction. One iconic and equally controversial species the ESA has helped protect is the gray wolf. Historically gray wolves were abundant throughout the contiguous United States but starting in the early 20th century their numbers began to drastically decline due to over hunting and habitat loss. By 1960, the gray wolf was completely extirpated from all of the United States except for Alaska and northern Minnesota.</p>
+            <p>Wolves were one of the first species included in the ESA’s protection. Since then, their population has experienced remarkable growth in the northern Rocky Mountains (NRM). The interactive graphs below highlight this phenomenon. The data is sourced from the United States Department of the Interior (DOI) and represents an annual census of wolves in Idaho, Montana, Oregon, Washington, and Wyoming from 1982 to 2012. The recorded numbers are actual counts of unique individuals observed by DOI biologists on federally owned land and not broad population estimates for each state.</p>
+            <p>It is easy to ascertain that wolves are experiencing a dramatic recovery in each of the states featured below - including a nearly exponential growth in the total NRM population up until the final year on record. Additionally, it can be observed that since re-establishment, wolves in Idaho have experienced the most rapid population recovery.</p>             
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="no-bottom-margin no-top-margin row">
+    <div class="col l12 m12 s12">
+      <div class="card-panel">
+        <div class="row source-wrapper">
+          <div class="input-field col l6 m12 s12">
+            <select id="source" multiple autocomplete="off">
+              <option value="MT.wolves" selected>Montana</option>
+              <option value="WY.wolves" selected>Wyoming</option>
+              <option value="ID.wolves" selected>Idaho</option>
+              <option value="OR.wolves" selected>Oregon</option>
+              <option value="WA.wolves" selected>Washington</option>
+              <option value="num.wolves" selected>Total</option>
+            </select>
+            <label>Population Source</label>
+          </div>
+        </div>
+        <div class="row vis-wrapper">
+          <div class="col l9 m12 s12 no-padding">
+            <h5 class="overtime-title center">Population Over Time</h5>
+            <div id="overtime"></div>
+          </div>
+          <div class="col l3 m12 s12 no-padding">
+            <h5 class="inyear-title center">2012</h5>
+            <div id="inyear"></div>
+          </div>
+        </div>
+        <div class="row">
+          <h5 class="helper-text red-text hidden">Select a population source to plot.</h5>
+          <div class="divider"></div>
+          <br>
+          &nbsp;&nbsp;&nbsp;<b>Tips:</b>
+          <ul>
+            <li>
+                &nbsp;&nbsp;&nbsp;Use the <em>Population Source</em> dropdown to update the categories displayed.
+            </li>
+            <li>
+                &nbsp;&nbsp;&nbsp;Select a year from the x-axis ticks to update the barchart.
+            </li>
+            <li>
+                &nbsp;&nbsp;&nbsp;Hover over points and bars to preview the data.
+            </li>
+          </ul>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
